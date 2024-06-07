@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.todo:hover .input {
+  opacity: 1;
+  left: 10px;
+}
+* ::selection {
+  background: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
